@@ -35,8 +35,7 @@ Pros and Cons:
 
 ### TF-IDF:
 
-The intuition behind TF-IDF is as follows: if a word w appears many times in a document d<sub>i but does not occur much in the rest of the documents d<sub>j in the corpus, then the word w must be of great importance to the document d i . The importance of w should increase in proportion to its frequency in d<sub>i , but at the same time, its importance should decrease in proportion to the word’s frequency in other documents d<sub>j in
-the corpus. Mathematically, this is captured using two quantities: TF and IDF. The two are then combined to arrive at the TF-IDF score.
+The intuition behind TF-IDF is as follows: if a word w appears many times in a document d<sub>i</sub> but does not occur much in the rest of the documents d<sub>j</sub> in the corpus, then the word w must be of great importance to the document d i . The importance of w should increase in proportion to its frequency in d<sub>i</sub> , but at the same time, its importance should decrease in proportion to the word’s frequency in other documents d<sub>j</sub> in the corpus. Mathematically, this is captured using two quantities: TF and IDF. The two are then combined to arrive at the TF-IDF score.
 
 Disadvantages :
 
